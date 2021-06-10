@@ -1,5 +1,7 @@
 # Node template
 
+.next/
+
 # Logs
 logs
 *.log
