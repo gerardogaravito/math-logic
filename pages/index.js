@@ -1,21 +1,23 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Head from 'next/head'
-import { GlobalStyle } from 'globalStyles/globalStyles'
-import { Navbar } from 'components/Navbar'
 import { Hero } from 'components/Hero'
+import { Description } from 'components/Description'
+import { Features } from 'components/Features'
 
 const Home = () => {
 
   return(
-    <React.Fragment>
+    <Fragment>
       <Head>
         <title>Math-Logic</title>
-      </Head>
-      <GlobalStyle />
+        <link rel="shortcut icon" href="" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
-      <Navbar />
+      </Head>
       <Hero />
-    </React.Fragment>
+      <Description />
+      <Features />
+    </Fragment>
   )
 }
 

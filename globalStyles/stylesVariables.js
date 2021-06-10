@@ -5,6 +5,7 @@ export const colors = {
   second: '#ffd6ba',
 	third: '#555b6e',
 	main_light: '#bee3db',
+	grey_light: '#f2f2f2'
 }
 
 export const fonts = {

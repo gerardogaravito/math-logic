@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components"
-import { fonts } from './stylesVariables'
+import { fonts, colors } from './stylesVariables'
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -9,23 +9,29 @@ export const GlobalStyle = createGlobalStyle`
   }
   h1 {
     font-size: ${fonts.h1};
+    color: ${colors.black};
     font-weight: normal;
   }
 	h2 {
     font-size: ${fonts.h2};
-    font-weight: normal;
+    color: ${colors.black};
+    font-weight: bold;
   }
 	h3 {
     font-size: ${fonts.h3};
-    font-weight: normal;
+    color: ${colors.black};
+    font-weight: bold;
   }
 	p {
     font-size: ${fonts.p};
+    color: ${colors.black};
   }
 	small {
     font-size: ${fonts.small};
+    color: ${colors.black};
   }
   ul {
     font-size: ${fonts.p};
+    color: ${colors.black};
   }
 `

@@ -14,25 +14,25 @@ export const Container = styled.div`
   align-items: center;
 `
 
-export const Title = styled.h1`
+export const Title = styled.h2`
   margin-top: 50px;
-  color: ${colors.white}
+  color: ${colors.third}
 `
 
-export const Subtitle = styled.h2`
-  margin-top: 30px;
-  color: ${colors.white}
+export const Subtitle = styled.h3`
+  margin-top: 15px;
+  color: ${colors.third}
 `
 
 export const AppContainer = styled.div`
   overflow: hidden;
   object-fit: cover;
   margin-top: 50px;
-  height: 500px;
-  width: 300px;
+  height: 400px;
+  width: 250px;
 `
 
 export const App = styled.img`
-  height: 500px;
-  width: 300px;
+  height: 400px;
+  width: 250px;
 `
