@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { 
   Container,
   LogoContainer,
@@ -14,10 +15,23 @@ export const Navbar = () => {
         <Logo src='test.jpg' />
       </LogoContainer>
       <NavbarOptions>
-        <NavbarItem href=''>INICIO</NavbarItem>
-        <NavbarItem href=''>APLICACIÓN</NavbarItem>
-        <NavbarItem href=''>CONTACTO</NavbarItem>
-        <NavbarItem href=''>ACERCA DE</NavbarItem>
+
+        <Link href='/'>
+          <NavbarItem href=''>INICIO</NavbarItem>
+        </Link>
+
+        <Link href='/'>
+          <NavbarItem href=''>APLICACIÓN</NavbarItem>
+        </Link>
+
+        <Link href='/'>
+          <NavbarItem href=''>CONTACTO</NavbarItem>
+        </Link>
+
+        <Link href='/about' >
+          <NavbarItem>ACERCA DE</NavbarItem>
+        </Link>
+
       </NavbarOptions>
     </Container>
   )

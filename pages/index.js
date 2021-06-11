@@ -3,6 +3,8 @@ import Head from 'next/head'
 import { Hero } from 'components/Hero'
 import { Description } from 'components/Description'
 import { Features } from 'components/Features'
+import { PlayStore } from '@components/PlayStore'
+import { Carrousell } from '@components/Carrousell'
 
 const Home = () => {
 
@@ -17,6 +19,9 @@ const Home = () => {
       <Hero />
       <Description />
       <Features />
+      <Carrousell />
+      <PlayStore />
+      
     </Fragment>
   )
 }

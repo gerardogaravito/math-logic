@@ -20,7 +20,6 @@ export const GlobalStyle = createGlobalStyle`
 	h3 {
     font-size: ${fonts.h3};
     color: ${colors.black};
-    font-weight: bold;
   }
 	p {
     font-size: ${fonts.p};

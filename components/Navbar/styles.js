@@ -11,7 +11,7 @@ export const Container = styled.div`
   background-color: ${colors.white};
 `
 
-export const LogoContainer = styled.a`
+export const LogoContainer = styled.div`
   overflow: hidden;
   object-fit: cover;
   width: 150px;
@@ -33,7 +33,7 @@ export const NavbarOptions = styled.ul`
   list-style: none;
 `
 
-export const NavbarItem = styled.a`
+export const NavbarItem = styled.p`
   margin: 25px;
   padding: 15px 30px;
   font-weight: bold;
