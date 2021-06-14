@@ -9,6 +9,7 @@ import {
 } from './styles';
 
 export const Navbar = () => {
+
   return(
     <Container>
       <LogoContainer>
