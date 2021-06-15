@@ -33,6 +33,10 @@ export const Navbar = () => {
           <NavbarItem>ACERCA DE</NavbarItem>
         </Link>
 
+        <Link href='/tesis' >
+          <NavbarItem>TÉSIS</NavbarItem>
+        </Link>
+
       </NavbarOptions>
     </Container>
   )
