@@ -7,8 +7,9 @@ export const Container = styled.div`
   height: calc(100vh - 100px);
   overflow: hidden;
   object-fit: cover;
-  background-image: url('test.jpg');
-  background-position: center;
+  background-image: url('indice.png');
+  background-position: center center;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;

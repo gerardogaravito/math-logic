@@ -1,27 +1,34 @@
 import styled from 'styled-components';
 import { blackToMain } from 'globalStyles/animations';
-import { colors } from 'globalStyles/stylesVariables';
+import { colors, mediaQueries } from 'globalStyles/stylesVariables';
 
 export const Container = styled.div`
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh + 100px);
   overflow: hidden;
   object-fit: cover;
-  background-image: url('test.jpg');
-  background-position: center;
+  background-image: url('indice.png');
+  background-position: bottom center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media ${mediaQueries.littleDesktop} {
+  height: calc(100vh - 100px);
+  background-position: center center;
+  }
 `
 
 export const Title = styled.h2`
-  margin-top: 50px;
-  color: ${colors.third}
+  margin: 30px 15px 0px 15px;
+  color: ${colors.third};
+  text-align: center;
 `
 
 export const Subtitle = styled.h3`
-  margin-top: 15px;
-  color: ${colors.third}
+  margin: 15px 15px 0px 15px;
+  color: ${colors.third};
 `
 
 export const AppContainer = styled.div`

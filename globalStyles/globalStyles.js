@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: ${fonts.font_system};
+    line-height: 25px;
   }
   h1 {
     font-size: ${fonts.h1};

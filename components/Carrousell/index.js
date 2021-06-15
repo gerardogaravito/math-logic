@@ -11,7 +11,7 @@ import { Carousel } from 'react-responsive-carousel';
 export const Carrousell = () => {
   return (
     <Container>
-      <Carousel>
+      <Carousel showThumbs={false}>
         <Frame>
           <Image src='test.jpg' />
           <Legend>test</Legend>

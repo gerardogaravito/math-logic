@@ -12,9 +12,6 @@ export const Hero = () => {
     <Container>
       <Title>Juego serio para fortalecer el razonamiento lógico-matemático</Title>
       <Subtitle>Es divertido y fácil de usar</Subtitle>
-      <AppContainer>
-        <App src='app.jpg' />
-      </AppContainer>
     </Container>
   )
 }
