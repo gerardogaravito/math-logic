@@ -13,7 +13,7 @@ export const Navbar = () => {
   return(
     <Container>
       <LogoContainer>
-        <Logo src='test.jpg' />
+        <Logo src='logo.png' />
       </LogoContainer>
       <NavbarOptions>
 
