@@ -18,6 +18,10 @@ export const Container = styled.div`
   height: calc(100vh - 75px);
   background-position: center center;
   }
+
+  @media ${mediaQueries.miniDesktop} {
+    margin-top: 135px;
+  }
 `
 
 export const Title = styled.h2`

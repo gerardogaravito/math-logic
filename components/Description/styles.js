@@ -4,7 +4,8 @@ import { colors } from 'globalStyles/stylesVariables';
 
 export const Container = styled.div`
   width: 100%;
-  height: 500px;
+  min-height: 500px;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +19,7 @@ export const Text = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 30px;
+  margin: 60px 30px;
 `
 
 export const Title = styled.h3`

@@ -5,6 +5,7 @@ import { Description } from 'components/Description'
 import { Features } from 'components/Features'
 import { PlayStore } from '@components/PlayStore'
 import { Carrousell } from '@components/Carrousell'
+import { Contact } from '@components/Contact'
 import { Footer } from '@components/Footer'
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Features />
       <Carrousell />
       <PlayStore />
+      <Contact />
       <Footer />
       
     </Fragment>

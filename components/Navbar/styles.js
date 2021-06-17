@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { blackToMain } from 'globalStyles/animations';
-import { colors } from 'globalStyles/stylesVariables';
+import { colors, mediaQueries } from 'globalStyles/stylesVariables';
 
 export const Container = styled.div`
   width: 100%;
@@ -11,7 +11,14 @@ export const Container = styled.div`
   z-index: 10;
   text-align: center;
   justify-content: space-between;
+  align-items: center;
   background-color: ${colors.white};
+
+  @media ${mediaQueries.miniDesktop} {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+  }
 `
 
 export const LogoContainer = styled.div`
@@ -21,6 +28,10 @@ export const LogoContainer = styled.div`
   height: 60px;
   margin: 10px;
   background-color: ${colors.main};
+
+  @media ${mediaQueries.miniDesktop} {
+    margin: 10px 10px 0px 10px;
+  }
 `
 
 export const Logo = styled.img`
@@ -38,14 +49,18 @@ export const NavbarOptions = styled.ul`
 
 export const NavbarItem = styled.p`
   margin: 25px;
-  padding: 15px 15px;
+  padding: 10px 10px;
   font-weight: bold;
   text-decoration: none;
   color: ${colors.black};
-  background-color: 'red';
 
   &:hover {
     cursor: pointer;
     ${blackToMain}
+  }
+
+  @media ${mediaQueries.miniDesktop} {
+    margin: 10px 5px;
+    padding: 10px 5px
   }
 `

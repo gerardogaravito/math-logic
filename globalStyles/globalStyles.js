@@ -34,4 +34,19 @@ export const GlobalStyle = createGlobalStyle`
     font-size: ${fonts.p};
     color: ${colors.black};
   }
+  button, input[type="submit"], input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
 `
