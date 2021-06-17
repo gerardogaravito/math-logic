@@ -15,7 +15,7 @@ export const Container = styled.div`
   align-items: center;
 
   @media ${mediaQueries.littleDesktop} {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 75px);
   background-position: center center;
   }
 `

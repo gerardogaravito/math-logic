@@ -7,10 +7,11 @@ import {
 export const Footer = () => {
   return (
     <Container>
-      <h1>Math-Logic</h1>
+      <h2>Math-Logic</h2>
+      <br />
       <p>Desarrollado por:</p>
       <LogosContainer>
-        <img src='app.jpg' height='250px' width='250px' />
+        <img src='FSW.png' height='250px' width='auto' />
       </LogosContainer>
     </Container>
   )

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { 
   Container,
@@ -12,9 +12,11 @@ export const Navbar = () => {
 
   return(
     <Container>
-      <LogoContainer>
-        <Logo src='logo.png' />
-      </LogoContainer>
+      <Link href='/'>
+        <LogoContainer>
+          <Logo src='logo.png' />
+        </LogoContainer>
+      </Link>
       <NavbarOptions>
 
         <Link href='/'>

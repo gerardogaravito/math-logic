@@ -14,7 +14,7 @@ export const fonts = {
 	h1: '36px',
 	h2: '24px',
 	h3: '18px',
-	p: '14px',
+	p: '16px',
 	small: '12px',
 }
 

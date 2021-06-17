@@ -10,11 +10,11 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   background-color: ${colors.white};
-  padding: 30px 0px;
+  padding: 50px 0px;
 `
 
 export const LogosContainer = styled.div`
-  width: 250px;
+  width: auto;
   height: 250px;
   display: flex;
   justify-content: center;
