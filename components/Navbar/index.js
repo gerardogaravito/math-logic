@@ -61,7 +61,11 @@ export const Navbar = () => {
         </Link>
 
         <Link href='/tesis' >
-          <NavbarItem>TÉSIS</NavbarItem>
+          <NavbarItem>TESIS</NavbarItem>
+        </Link>
+
+        <Link href='/aviso' >
+          <NavbarItem>POLÍTICA DE PRIVACIDAD</NavbarItem>
         </Link>
 
       </NavbarOptions>

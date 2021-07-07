@@ -45,12 +45,17 @@ export const NavbarOptions = styled.ul`
   justify-content: center;
   align-items: center;
   list-style: none;
+
+  @media ${mediaQueries.miniDesktop} {
+    flex-wrap: wrap;
+  }
 `
 
 export const NavbarItem = styled.p`
-  margin: 25px;
-  padding: 10px 10px;
+  margin: 5px;
+  padding: 10px 5px;
   font-weight: bold;
+  max-height: 45px;
   text-decoration: none;
   color: ${colors.black};
 
@@ -60,7 +65,9 @@ export const NavbarItem = styled.p`
   }
 
   @media ${mediaQueries.miniDesktop} {
-    margin: 10px 5px;
-    padding: 10px 5px
+    margin: 5px 5px;
+    padding: 5px 5px;
+    font-size: 14px;
+    line-height: 12px;
   }
 `

@@ -11,7 +11,7 @@ export const TesisComponent = () => {
   return(
     <Container>
       <Info>
-        <h2>Tésis</h2>
+        <h2>Tesis</h2>
         <br/>
 
         <h3>Nombre de la tesis:</h3>

@@ -7,7 +7,7 @@ export const Container = styled.div`
   height: auto;
   overflow: auto;
   object-fit: cover;
-  background-image: url('indice.png');
+  background-image: url('indice.jpg');
   background-position: center center;
   background-size: cover;
   display: flex;
