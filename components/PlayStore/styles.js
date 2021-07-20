@@ -11,6 +11,7 @@ export const Container = styled.div`
   justify-content: center;
   background-color: ${colors.grey_light};
 `
+
 export const Instruction = styled.h3`
   margin-bottom: 15px;
 `

@@ -8,7 +8,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: ${colors.white};
+  background-color: ${colors.main_light};
 `
 
 export const Frame = styled.div`
@@ -17,10 +17,16 @@ export const Frame = styled.div`
   object-fit: cover;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 `
 
 export const Image = styled.img`
-  /* height: 400px; */
+  max-height: 400px;
+  height: auto;
+  max-width: 180px;
+  width: auto;
+  object-fit: cover;
 `
 
 export const Legend = styled.p`

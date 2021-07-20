@@ -41,7 +41,7 @@ export const Features = () => {
 
         <FourthContainer>
           <ImageContainer>
-            <img src={'2.png'} height='100px' width='auto' />
+            <img src={'loading.png'} height='100px' width='auto' />
           </ImageContainer>
           <h3>Distinas Áreas</h3>
           <Text>Actualmente cuenta con 3 áreas: razonamiento aritmético, algebraico, estadístico y probabilístico.</Text>

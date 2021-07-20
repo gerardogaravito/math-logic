@@ -1,7 +1,7 @@
 export const colors = {
   main: '#89b0ae', // bone
   black: '#111111', // black
-  white: '#fafaff',
+  white: '#fff',
   second: '#ffd6ba',
 	third: '#555b6e',
 	main_light: '#bee3db',
@@ -14,7 +14,7 @@ export const fonts = {
 	h1: '36px',
 	h2: '24px',
 	h3: '18px',
-	p: '14px',
+	p: '16px',
 	small: '12px',
 }
 

@@ -10,16 +10,26 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   background-color: ${colors.white};
-  padding: 30px 0px;
+  padding: 50px 0px;
 `
 
 export const LogosContainer = styled.div`
-  width: 250px;
-  height: 250px;
+  width: auto;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 30px;
   overflow: hidden;
   object-fit: cover;
+`
+
+export const Url = styled.a`
+  text-decoration: none;
+  color: ${colors.black};
+  font-size: 18px;
+
+  &:hover {
+    ${blackToMain}
+  }
 `

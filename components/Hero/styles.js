@@ -4,19 +4,23 @@ import { colors, mediaQueries } from 'globalStyles/stylesVariables';
 
 export const Container = styled.div`
   width: 100%;
-  height: calc(100vh + 100px);
+  height: calc(100vh);
   overflow: hidden;
   object-fit: cover;
-  background-image: url('indice.png');
-  background-position: bottom center;
+  background-image: url('indice.jpg');
+  background-position: center center;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   @media ${mediaQueries.littleDesktop} {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 75px);
   background-position: center center;
+  }
+
+  @media ${mediaQueries.miniDesktop} {
+    margin-top: 135px;
   }
 `
 
@@ -34,12 +38,12 @@ export const Subtitle = styled.h3`
 export const AppContainer = styled.div`
   overflow: hidden;
   object-fit: cover;
-  margin-top: 50px;
-  height: 400px;
-  width: 250px;
+  margin-top: 30px;
+  height: 450px;
+  width: auto;
 `
 
 export const App = styled.img`
-  height: 400px;
-  width: 250px;
+  height: 450px;
+  width: auto;
 `

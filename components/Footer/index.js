@@ -1,16 +1,18 @@
 import React from 'react'
 import {
   Container,
-  LogosContainer
+  LogosContainer,
+  Url
 } from './styles'
 
 export const Footer = () => {
   return (
     <Container>
-      <h1>Math-Logic</h1>
+      <h2>Math-Logic</h2>
+      <br />
       <p>Desarrollado por:</p>
       <LogosContainer>
-        <img src='app.jpg' height='250px' width='250px' />
+        <Url target='_blank' href='https://gerardogaravito.vercel.app/'>Gerardo Garavito 👨🏽‍💻</Url>
       </LogosContainer>
     </Container>
   )
