@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { blackToMain, blackToWhite } from 'globalStyles/animations';
-import { colors } from 'globalStyles/stylesVariables';
+import { colors, mediaQueries } from 'globalStyles/stylesVariables';
 
 export const Container = styled.div`
   width: 100%;
@@ -17,23 +17,67 @@ export const Title = styled.h1`
   margin: 60px 15px 15px 15px;
 `
 
-export const Email = styled.input`
+export const Form = styled.form`
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 80%;
+`
+
+export const Sections = styled.div`
+  width: 800px;
+  display: flex;
+  justify-content: center;
+
+  @media ${mediaQueries.miniDesktop} {
+    width: 400px;
+  }
+
+  @media ${mediaQueries.mobile} {
+    width: 300px;
+  }
+`
+
+export const Email = styled.input`
+  width: 800px;
   max-width: 800px;
   margin: 30px 15px;
   border: none;
   padding: 10px;
   font-size: 16px;
+  border-radius: 3px;
+
+  @media ${mediaQueries.miniDesktop} {
+    width: 400px;
+  }
+
+  @media ${mediaQueries.mobile} {
+    width: 300px;
+  }
+`
+
+export const Label = styled.label`
+  display: none;
 `
 
 export const Text = styled.textarea`
-  width: 80%;
+  width: 800px;
   max-width: 800px;
   height: 300px;
   margin: 5px 15px 30px 15px;
   border: none;
   padding: 10px;
   font-size: 16px;
+  border-radius: 3px;
+
+  @media ${mediaQueries.miniDesktop} {
+    width: 400px;
+  }
+
+  @media ${mediaQueries.mobile} {
+    width: 300px;
+  }
 `
 
 export const Button = styled.button`
@@ -48,4 +92,8 @@ export const Button = styled.button`
     ${blackToWhite}
     cursor: pointer;
   }
+`
+
+export const Message = styled.div`
+  color: ${colors.white}
 `

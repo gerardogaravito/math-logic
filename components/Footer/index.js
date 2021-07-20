@@ -1,7 +1,8 @@
 import React from 'react'
 import {
   Container,
-  LogosContainer
+  LogosContainer,
+  Url
 } from './styles'
 
 export const Footer = () => {
@@ -11,7 +12,7 @@ export const Footer = () => {
       <br />
       <p>Desarrollado por:</p>
       <LogosContainer>
-        <img src='FSW.png' height='250px' width='auto' />
+        <Url target='_blank' href='https://gerardogaravito.vercel.app/'>Gerardo Garavito 👨🏽‍💻</Url>
       </LogosContainer>
     </Container>
   )

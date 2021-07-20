@@ -8,7 +8,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: ${colors.white};
+  background-color: ${colors.main_light};
 `
 
 export const Frame = styled.div`
