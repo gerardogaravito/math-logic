@@ -12,7 +12,7 @@ export const Footer = () => {
       <br />
       <p>Desarrollado por:</p>
       <LogosContainer>
-        <Url target='_blank' href='https://gerardogaravito.vercel.app/'>Gerardo Garavito 👨🏽‍💻</Url>
+        <Url target='_blank' href='https://gerardogaravito.vercel.app/'>Gerardo Garavito</Url>
       </LogosContainer>
     </Container>
   )
