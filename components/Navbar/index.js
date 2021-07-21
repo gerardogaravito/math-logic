@@ -15,7 +15,7 @@ export const Navbar = () => {
     <Container>
       <Link href='/'>
         <LogoContainer>
-          <Logo src='logo.png' />
+          <Logo src='images/logo.png' />
         </LogoContainer>
       </Link>
       <NavbarOptions>

@@ -10,7 +10,7 @@ export const TesisPdf = () => {
   return (
     <Container>
       <ImageContainer>
-        <img src='pdf.png' width='100px' height='125px' />
+        <img src='images/pdf.png' width='100px' height='125px' />
       </ImageContainer>
       <Info>
         <p>Texto</p>

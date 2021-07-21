@@ -17,7 +17,7 @@ export const Features = () => {
 
         <FirstContainer>
           <ImageContainer>
-            <img src={'SelloTierra.png'} height='100px' width='100px' />
+            <img src={'images/SelloTierra.png'} height='100px' width='100px' />
           </ImageContainer>
           <h3>Agrupadas</h3>
           <Text>Los problemas están agrupados dependiendo del tema en el que se encuentre el usuario. </Text>
@@ -25,7 +25,7 @@ export const Features = () => {
 
         <SecondContainer>
           <ImageContainer>
-            <img src={'androidLogo.png'} height='100px' width='100px' />
+            <img src={'images/androidLogo.png'} height='100px' width='100px' />
           </ImageContainer>
           <h3>Dispositivos Android</h3>
           <Text>Se puede utilizar de manera individual para tabletas o teléfonos inteligentes cuyo sistema operativo sea Android. </Text>
@@ -33,7 +33,7 @@ export const Features = () => {
 
         <ThirdContainer>
           <ImageContainer>
-            <img src={'Reint-Agua.png'} height='100px' width='100px' />
+            <img src={'images/Reint-Agua.png'} height='100px' width='100px' />
           </ImageContainer>
           <h3>Aleatoriedad</h3>
           <Text>Aunque el usuario puede volver a intentar los problemas, estos y sus opciones de respuestas se muestran en orden aleatorio. </Text>
@@ -41,7 +41,7 @@ export const Features = () => {
 
         <FourthContainer>
           <ImageContainer>
-            <img src={'loading.png'} height='100px' width='auto' />
+            <img src={'images/loading.png'} height='100px' width='auto' />
           </ImageContainer>
           <h3>Distinas Áreas</h3>
           <Text>Actualmente cuenta con 3 áreas: razonamiento aritmético, algebraico, estadístico y probabilístico.</Text>
