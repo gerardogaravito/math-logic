@@ -8,7 +8,7 @@ export const Container = styled.div`
   min-height: calc(100vh - 75px);
   overflow: auto;
   object-fit: cover;
-  background-image: url('indice.jpg');
+  background-image: url('images/indice.jpg');
   background-position: center center;
   background-size: cover;
   display: flex;

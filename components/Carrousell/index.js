@@ -13,28 +13,28 @@ export const Carrousell = () => {
     <Container>
       <Carousel showThumbs={false}>
         <Frame>
-          <Image src='carrousell/1.jpg' />
+          <Image src='images/carrousell/1.jpg' />
         </Frame>
         <Frame>
-          <Image src='carrousell/2.jpg' />
+          <Image src='images/carrousell/2.jpg' />
         </Frame>
         <Frame>
-          <Image src='carrousell/3.jpg' />
+          <Image src='images/carrousell/3.jpg' />
         </Frame>
         <Frame>
-          <Image src='carrousell/4.jpg' />
+          <Image src='images/carrousell/4.jpg' />
         </Frame>
         <Frame>
-          <Image src='carrousell/5.jpg' />
+          <Image src='images/carrousell/5.jpg' />
         </Frame>
         <Frame>
-          <Image src='carrousell/6.jpg' />
+          <Image src='images/carrousell/6.jpg' />
         </Frame>
         <Frame>
-          <Image src='carrousell/7.jpg' />
+          <Image src='images/carrousell/7.jpg' />
         </Frame>
         <Frame>
-          <Image src='carrousell/8.jpg' />
+          <Image src='images/carrousell/8.jpg' />
         </Frame>
       </Carousel>
     </Container>
